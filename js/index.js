@@ -1,4 +1,4 @@
-var API_KEY = "54d8211b55a55fe455d605d75eb6aa7d";
+var API_KEY = //API key 
 var cel = false;
 var wd;
 
@@ -20,7 +20,6 @@ function render(wd, cel) {
   $("#currentWeather").html(currentWeather);
 
   var iconSrc = "https://openweathermap.org/img/w/" + Icon + ".png";
-  //$('#currentTemp').prepend('<img src = ' + iconSrc + '>');
   $("#icon").html("<img src = " + iconSrc + ">");
 }
 
